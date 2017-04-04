@@ -1,0 +1,366 @@
+html {
+	width: 960px;
+}
+
+
+#section {
+	background-color: white;
+	margin-right: 350px;
+	margin-left: 46px;
+	width: 650px;
+	font-family: arial;
+	border: solid;
+	border-color: #dddddd;
+	margin-top: 20px;
+
+}
+
+.portfolio {
+	background-color: white;
+	width: 650px;
+	margin-left: 49px;
+	margin-top: 23px;
+	padding: 1px;
+	height: 780px;
+
+	
+}
+
+
+h2 {
+	color: grey;
+	margin-left: 50px;
+	font-family: georgia;
+
+}
+
+
+hr {
+	width: 85%;
+	color: grey;
+}
+
+h3 {
+	color: grey;
+}
+
+#hr2 {
+	color: grey;
+}
+
+
+p { 
+	line-height: 140%;
+	color: grey;
+	margin-left: 5px;
+}
+
+#ny {
+	border:1px;
+	margin-top: 0px;
+	
+}
+
+
+#page1 {
+	background-image: url('../images/cork-wallet.png');
+	width: 960px;
+	margin-left: 0;
+	 
+}
+
+
+#page2 {
+	background-image: url('../images/cork-wallet.png');
+	width: 960px;
+	margin-left: 0;
+
+
+}
+
+
+#page3 {
+	background-image: url('../images/cork-wallet.png');
+	width: 960px;
+	margin-left: 0;
+}
+
+header {
+	margin-left:50px;
+	color:white;
+	background-color: #4aaaa5;
+	padding: 30px;
+	width: 17%;
+	margin-top:-20px;
+	text-align: center;
+	font-family: Georgia;
+
+	
+}
+
+#info {
+	
+	float: right;
+	margin-right: 40px;
+	margin-top: -50px;
+	color: grey;
+	font-family: georgia;
+}
+
+
+
+#header {
+	background-color: white;
+	width: 960px;
+	border: #cccccc; 
+
+}
+
+#connect {
+	float: right;
+	margin-top: 24px;
+	margin-right: 35px;
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+	font-family: georgia;
+	color: grey;
+
+
+}
+
+#connect2 {
+	float: right;
+	margin-right: 35px;
+	margin-top: 24px;
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+	font-family: georgia;
+	color: grey;
+}
+
+
+.contact {
+	float: left;
+	background-color: white;
+	width: 650px;
+	margin-top: 23px;
+	margin-left: 50px;
+	font-family: georgia;
+	height: 400px; 
+
+
+}
+
+
+#search1 {
+	padding: 1px;
+	margin-left: 50px;
+}
+
+.typename {
+	width: 500px;
+	height:20px;
+	margin-left:50px;
+}
+
+#search2 {
+	padding: 1px;
+	margin-left: 50px;
+}
+
+
+.typeemail {
+	width: 500px;
+	height: 20px;
+	margin-left:50px;
+}
+
+#search3 {
+	padding: 1px;
+	margin-left: 50px;
+}
+
+.typemessage {
+	height: 100px;
+	width:500px;
+	margin-left:50px;
+}
+ #submitbutton {
+ 	padding: 3px;
+ 	margin-left: 45px;
+ }
+
+#food {
+	float: right;
+	margin-right: 50px;
+
+}
+
+#burrito {
+	margin-top: -50px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+}
+
+
+#city {
+	margin-left: 50px;
+
+}
+
+#ny {
+	margin-top: -50px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 38.4%;
+    margin-left: 0px;
+}
+
+
+#dogg {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+#retriever {
+	margin-top: -50px;
+    text-align: center;
+    background-color: #4aaaa5;
+    position: relative;
+    color: white;
+    padding: 10px;
+    width: 38.4%;
+    margin-left: 0px;
+}
+
+#skating {
+	margin-top: 5px;
+	float: right;
+	margin-right: 50px;
+}
+
+#board {
+	position: relative;
+    margin-top: -50px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+
+#raining {
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+
+#drip {
+	position: relative;
+    padding: 10px;
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    width: 38.3%;
+    margin-left: 0px;
+}
+
+
+footer {
+	border-top: solid;
+	border-color: #4aaaa5;
+	background-color: #666666;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	padding: 20px;
+	width: 920px;
+	color: white;
+	right: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 980px){
+	#page1{
+		width: 980px;
+	}
+
+	#page2 {
+		width: 980px;
+	}
+
+	#page3 {
+		width: 980px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 768px){
+
+	#connect{
+		width: 85%;
+		margin-right: 67px;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: fixed;
+        bottom: 60px;
+        margin-left: 50px;
+	}
+
+	#header {
+		width: 768px;
+	}
+
+
+
+}
+
+
+ @media screen and (max-width: 640px){
+ 
+	#header{
+		width: 640px;
+	}
+
+	#me {
+		height: 600px;
+    	width: 640px
+	}
+ 
+
+ 	#connect{
+ 		bottom: 0;
+ 		float:left;
+ 	}	
+
+
+	
+  footer {
+  	width: 640px;
+  }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
