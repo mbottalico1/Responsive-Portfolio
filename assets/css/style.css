@@ -320,11 +320,27 @@ footer {
         margin-left: 50px;
 	}
 
+	#connect2{
+		width: 85%;
+		margin-right: 67px;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: fixed;
+        bottom: 60px;
+        margin-left: 50px;
+	}
+
+
+
+
 	#header {
 		width: 768px;
 	}
 
-
+ 	
+ 	footer{
+ 		width: 768px;
+ 	}
 
 }
 
@@ -342,11 +358,24 @@ footer {
  
 
  	#connect{
- 		bottom: 0;
+ 		bottom: 100px;
  		float:left;
+ 		position: fixed;
+
  	}	
 
+	#connect2{
+		bottom: 70px;
+ 		float:left;
+ 		position: fixed;
+ 		width: 580px;
+ 		padding-top: 0px;
+	}
 
+
+	.contact{
+		width: 580px;
+	}
 	
   footer {
   	width: 640px;
