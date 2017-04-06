@@ -141,6 +141,18 @@ header {
 }
 
 
+#connect3{
+	float: right;
+	margin-right: 35px;
+	margin-top: 24px;
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+	font-family: georgia;
+	color: grey;
+}
+
+
 .contact {
 	float: left;
 	background-color: white;
@@ -311,27 +323,36 @@ footer {
 @media screen and (max-width: 768px){
 
 	#connect{
-		width: 85%;
-		margin-right: 67px;
-        padding-left: 0px;
-        padding-right: 0px;
-        position: fixed;
-        bottom: 60px;
-        margin-left: 50px;
-	}
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    width: 610px;
+    margin-left: 50px;
+}
+
+
 
 	#connect2{
-		width: 85%;
-		margin-right: 67px;
-        padding-left: 0px;
-        padding-right: 0px;
-        position: fixed;
-        bottom: 60px;
-        margin-left: 50px;
+    display: block;
+    margin-bottom: -330px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 50px;
+    width: 610px
+		
 	}
 
 
+	.clear{
+		clear:both;
+	}
 
+	#connect3{
+	position: absolute;
+    bottom: 70px;
+    width: 610px;
+    margin-left: 50px;
+	}
 
 	#header {
 		width: 768px;
@@ -347,31 +368,42 @@ footer {
 
  @media screen and (max-width: 640px){
  
+	#connect{
+    display: block;
+    position: absolute;
+    margin-bottom: -450px;
+    width: 610px;
+    margin-left: 50px;
+}
+
+	#connect2{
+		margin-left: 20px;
+	}
+
+
+	#connect3{
+		width: 540px;
+	}
+
 	#header{
 		width: 640px;
 	}
 
 	#me {
-		height: 600px;
-    	width: 640px
+		height: 500px;
+    	width: 550px
+	}
+
+	#section{
+		width: 580px;
 	}
  
 
- 	#connect{
- 		bottom: 100px;
- 		float:left;
- 		position: fixed;
 
- 	}	
-
-	#connect2{
-		bottom: 70px;
- 		float:left;
- 		position: fixed;
- 		width: 580px;
- 		padding-top: 0px;
+	.portfolio{
+		width: 610px;
+		margin-left: 20px;
 	}
-
 
 	.contact{
 		width: 580px;
@@ -379,6 +411,7 @@ footer {
 	
   footer {
   	width: 640px;
+
   }
 
  }
